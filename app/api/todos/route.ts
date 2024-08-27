@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
   const response = {
     message: '할일 추가 성공!',
     data: addedTodo
-}
+  }
  
   return Response.json(response,{ status: 201 });
 }
